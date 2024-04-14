@@ -20,6 +20,7 @@ npm install express colors morgan dotenv cors nodemon
 .env
 
 PORT=
+MONGO_URL=
 
 # important extension
 auto close tag
