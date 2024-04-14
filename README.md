@@ -16,6 +16,11 @@ npm init
 
 npm install express colors morgan dotenv cors nodemon
 
+# create .env file
+.env
+
+PORT=
+
 # important extension
 auto close tag
 auto import tag

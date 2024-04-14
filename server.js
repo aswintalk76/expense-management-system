@@ -5,6 +5,9 @@ const morgan = require('morgan')
 const dotenv = require('dotenv')
 const colors = require('colors')
 
+//config dot env file
+dotenv.config();
+
 // rest object
 const app = express()
 
@@ -19,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 // port
-const PORT = 8080 || process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 //Listen server
 app.listen(PORT,()=>{
